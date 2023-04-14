@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1585490789947505660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1585490789947505657}
+  - component: {fileID: 1585490789947505662}
+  m_Layer: 0
+  m_Name: ObjectPooling
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1585490789947505657
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585490789947505660}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.01706183, y: 3.7023563, z: 21.019897}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1585490789947505662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585490789947505660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9243804fc339de647bf08c72ed0ee45e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools:
+  - objectPrefab: {fileID: 1111124265394813059, guid: 78ea21b6dc1e8624bb7316891d1fbf37, type: 3}
+    poolSize: 10
+  - objectPrefab: {fileID: 8436206883793654295, guid: b57d62a3d4751d243b1a72f2c5798ad7, type: 3}
+    poolSize: 3
+  - objectPrefab: {fileID: 4719032908768487090, guid: a23775fc4f70186478d7966e0bbee13e, type: 3}
+    poolSize: 3
+  - objectPrefab: {fileID: 2798374622371444243, guid: f23d487f3980aa14ab49a2111ef966e3, type: 3}
+    poolSize: 3
+  - objectPrefab: {fileID: 2111337287420493636, guid: f9342aca690d08c4bacd0fcce93296ea, type: 3}
+    poolSize: 3
+  - objectPrefab: {fileID: 7847721437685455456, guid: a57b64eff4cfee54c99908de9c541134, type: 3}
+    poolSize: 3
+  - objectPrefab: {fileID: 5664535629135786410, guid: ccc4019dfa059ee4a8e9f258779970ac, type: 3}
+    poolSize: 4
+  - objectPrefab: {fileID: 4003528808953652179, guid: f41a4192ade74b944bcc20e4c1ad901d, type: 3}
+    poolSize: 5
+  - objectPrefab: {fileID: 8451992550790043265, guid: f6e8fb255037247468fce0aafdf5c707, type: 3}
+    poolSize: 10
+  - objectPrefab: {fileID: 3348530434141729657, guid: 31883388b7d05a34a91537c3c269dc99, type: 3}
+    poolSize: 4
